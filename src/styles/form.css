@@ -1,0 +1,87 @@
+.Form-content {
+    height: 41vh;
+    width: 60vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    align-self: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.Form-title {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #F9F9F9;
+    margin: 0;
+}
+
+.Form-subtitle {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #F9F9F9;
+    margin: 5px 0 0;
+}
+
+.Form-logo {
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin: 40px auto 30px auto;
+}
+
+.Form-separator {
+    width: 75%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+}
+
+.Form-inputs {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.Form-input {
+    font-size: 20px;
+    width: 30vh;
+    height: 4vh;
+    margin: 10px;
+    text-align: center;
+    outline: none !important;
+    border: 0;
+    color: #F9F9F9;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Form-input:focus {
+    border: 0;
+    outline: none !important;
+}
+
+.Form-input-error {
+    font-size: 20px;
+    width: 30vh;
+    height: 4vh;
+    margin: 10px;
+    text-align: center;
+    outline: none !important;
+    border: 0;
+    color: #F9F9F9;
+    background-color: rgba(231, 76, 60, 0.2);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Form-input-error:focus {
+    border: 0;
+    outline: none !important;
+}
+
+.Form-message {
+    color: rgba(231, 76, 60, 0.8);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}

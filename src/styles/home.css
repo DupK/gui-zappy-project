@@ -1,0 +1,43 @@
+.Home-particles {
+    background-color: #010101;
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.Home-content {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.Home-form {
+    padding-top: 10vh;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Home-loader {
+    padding-top: 30vh;
+    text-align: center;
+    height: 200px;
+    width: 60px;
+    margin: 50px auto auto;
+}
+
+.Home-interface {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+.Home-background {
+    height: 100vh;
+    background-color: #010101;
+}
+

@@ -1,0 +1,56 @@
+.ScoreBoard-container {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.ScoreBoard-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.ScoreBoard-team {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+}
+
+.ScoreBoard-title {
+    color: #F9F9F9;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ScoreBoard-player {
+    color: #F9F9F9;
+    font-size: 13px;
+    margin: 0 0 0 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ScoreBoard-resources {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+.ScoreBoard-resource {
+    width: 7px;
+    height: 7px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.ScoreBoard-number {
+    color: #F9F9F9;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 6px;
+}

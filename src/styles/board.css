@@ -1,0 +1,19 @@
+.Board-layout {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.Board-sidebar {
+    flex: 0.2;
+}
+
+.Board-chat {
+    flex: 0.5;
+}
+
+.Board-map {
+    flex: 0.8;
+    margin: auto;
+}
+

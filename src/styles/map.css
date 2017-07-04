@@ -1,0 +1,89 @@
+.Map-container {
+    height: 875px;
+    width: 875px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.97);
+    overflow: scroll;
+}
+
+.Map-table {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.Map-td {
+    height: 10%;
+    width: 10%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Map-tr {
+}
+
+.Map-cell {
+    display: flex;
+    flex: 1;
+    margin-bottom: 20%;
+}
+
+.Map-life {
+    flex: 0.33;
+    height: 10%;
+    align-items: center;
+}
+
+.Map-player {
+    align-items: center;
+    height: 8px;
+}
+
+.Map-players {
+    flex: 0.33;
+    height: 10px;
+    align-items: center;
+}
+
+.Map-resources {
+    flex: 0.33;
+    height: 10px;
+    align-items: center;
+}
+
+.Map-resource {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.Map-nbr-resource {
+    color: #F9F9F9;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 0 5px;
+}
+
+.Map-nbr-life {
+    color: #F9F9F9;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.Map-egg {
+    flex: 0.33;
+    height: 10%;
+    align-items: center;
+}
+
+.Map-nbr-eggs {
+    color: #F9F9F9;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
